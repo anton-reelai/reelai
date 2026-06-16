@@ -1,0 +1,21 @@
+# ReelAI — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+anthropic>=0.40.0          # Claude API
+requests>=2.31.0           # HTTP calls to NOAA, Open-Meteo
+feedparser>=6.0.11         # RSS feed parsing (On The Water, Salty Cape)
+beautifulsoup4>=4.12.0     # HTML scraping (Stripersonline)
+
+# Web app
+streamlit>=1.40.0          # Web UI
+
+# Database
+sqlalchemy>=2.0.0          # ORM and query layer
+psycopg2-binary>=2.9.9     # PostgreSQL driver
+
+# Scheduler
+apscheduler>=3.10.0        # Background job scheduling
+
+# Utilities
+python-dotenv>=1.0.0       # Load .env file for local development
